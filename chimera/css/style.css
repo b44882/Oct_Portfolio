@@ -1,0 +1,101 @@
+/*
+Brett Gear
+Project 4
+VFW 1305
+
+*/
+html {
+	background-color: gray;
+}
+#mainContent{
+	font-family: "Bell Gothic", "Griffith Gothic", "Charolotte Sans", 
+				 "Stone Humanist", "Chong Old Style", sans-serif;
+	font-size:1em;
+	letter-spacing: .07em;
+	background-color: #F2F0D8;
+	color:#593157;
+	padding: .5em;
+	margin: .5em auto;
+	width: 480px;
+	border-color: #593157;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 10px;
+	overflow: auto;
+}
+#TopNav{
+	text-align:center;
+}
+#BottomNav{
+	text-align:right;
+}
+#oneLink{
+	margin-right: .5em;
+}
+
+a{
+	font-size:80%;
+	border-style:solid;
+	border-width: 1px;
+	border-radius:10px;
+	background-color: #D9C2AD;
+	padding: .4em;
+	text-decoration: none;
+	font-weight:bold;
+}
+a:hover{
+	background-color: #BF907E;
+}
+
+legend{
+	display: none;
+}
+
+h1{
+	font-size:225%;
+	text-align:center;
+}
+h2{
+	font-size:100%;
+	color:red;
+	margin-top: 1.5em;
+	margin-left: 1em;
+	line-height: 1.1em;
+	width:26.5em;
+}
+#Configure li{
+	list-style-type: none;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 10px;
+	padding:.5em;
+	margin-top: .5em;
+	margin-right: 1em;
+	margin-left: -1.5em;
+	line-height: 1.1em;
+}
+#Configure li ul li {
+	border-style:none;
+	margin: 0em auto;
+	padding: 0em;
+
+}
+#ViewItem {
+	list-style-type: none;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 10px;
+	padding:.5em;
+	margin-top: .5em;
+	line-height: 1.1em;
+}
+.error{
+	border-color:red;
+}
+.hidden {
+	display: none;
+}
+
+
+
+

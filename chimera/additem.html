@@ -1,0 +1,69 @@
+<!doctype html>
+
+<!-- Brett Gear -->
+<!-- Project 4 -->
+<!-- VFW 1305 -->
+
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta keywords="Chimera Maker, Game, RPG, Monster, Monster Maker, Creator, Maker" />
+		<meta description="Chimera Maker is a fun, quick RPG that allows you to create your own monsters!  Battle with your friends!" /> 
+		<meta name="robots" content="index, follow" />
+		<meta name="viewport" content="user-scalable=no, width=device-width" />
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<title>Chimera Maker</title>
+	</head>
+	<body>
+		<form action="#" method="post" id="chimeraForm">
+			<fieldset id="mainContent">
+				<legend id="content">Chimera</legend>
+				<header>
+					<h1>Chimera Maker</h1>
+				</header>
+				<nav id="TopNav">
+					<div id="options">
+						<a href="#" id="display"/>Chimera List</a>
+						<a href="#" id="clear"/>Delete Chimeras</a>
+						<a href="#" id="returnForm" class="hidden" />Return to Form</a>
+					</div>
+				</nav>
+				<section id="formContent">
+					<h2 id="errormessage" class="hidden">Please fill the highlighted forms.</h2>
+					<ul id="Configure">
+						<li id="l_name"><label for="name">*Name </label><br>
+							<input type="text" id="name" />
+						</li>
+						<li id="l_type">*Select Type<br>
+							<select id="type">
+							</select>
+						</li>
+						<li><label for="level">Level</label><br>
+							<input type="range" min="1" max="100" id="level" /><label id="chimlevel">51</label>
+						</li>
+						<li>Attributes
+							<ul>
+								<li><input type="checkbox" value="Can Fly" id="fly" name="attribute" /><label for="fly">Can Fly</label></li>
+								<li><input type="checkbox" value="Can Swim" id="swim" name="attribute" /><label for="swim">Can Swim</label></li>
+								<li><input type="checkbox" value="Can Run" id="run" name="attribute" /><label for="run">Can Run</label></li>
+							</ul>
+						</li>
+						<li id="l_date"><label for="cdate">*Date Created</label><br>
+							<input type="date" id="date" /></li>
+						<li id="l_desc"><label for="desc">*Description</label><br>
+							<textarea id="desc"></textarea></li>
+						<li class="hidden"><input type="hidden" value="true" /></li>
+					</ul>
+				<div id="BottomNav">
+				<a href="#" id="create" />Create!</a>
+				<a href="#" id="saveChim" class="hidden"/>Save Chimera</a>
+				<a href="#" id="saveCancel" class="hidden"/>Cancel</a>
+				</div>
+				</section>
+			</fieldset>
+		</form>
+		<script type="text/javascript" src="js/json.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

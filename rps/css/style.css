@@ -1,0 +1,79 @@
+html{
+	background-color: #8F9E8B;
+}
+
+#theGame{
+	font-family: "Bell Gothic", "Griffith Gothic", "Charolotte Sans", 
+				 "Stone Humanist", "Chong Old Style", sans-serif;
+	font-size:1em;
+	letter-spacing: .07em;
+	background-color: #F2E6B6;
+	color:#292929;
+	padding: .5em;
+	margin: .5em auto;
+	width: 480px;
+	border-color: #5B7876;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 10px;
+	overflow: auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+nav {
+	text-align: center;
+	margin-bottom:2em;
+}
+
+a {
+	font-size:120%;
+	border-style:solid;
+	border-width: 1px;
+	border-radius:10px;
+	background-color: #8F9E8B;
+	color: #292929;
+	padding: .4em;
+	margin: .5em;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+a:hover {
+	background-color: #C9DEC3
+}
+
+a:visited{
+	color: #292929;
+}
+
+.gameImages{
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	margin-bottom:2em;
+}
+#player{
+	float: left;
+	height:200px;
+	width: 200px;
+}
+#opponent{
+	float: right;
+	height:200px;
+	width:200px;
+}
+
+#result{
+	height:200px;
+	width: 479px;
+	clear:both;
+	overflow: auto;
+}
+

@@ -1,0 +1,63 @@
+<!doctype html>
+
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta keywords="" />
+		<meta description="" /> 
+		<meta name="robots" content="index, follow" />
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="cleartype" content="on">
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		
+		<!-- Page Title -->
+		<title>Fitness Form</title>
+	</head>
+	<body>
+	
+		<article class="shadow">
+			<header class="banner center padtop padbot">
+				<h1>Exercise Creator</h1>
+			</header>
+			
+			<section id="createExercise">
+				<form id="myForm" class="box shadow">
+					<ul class="padtop">
+						<li id="editMode" class="hidden red">Edit Mode</li>
+						<li id="nameLabel"><label for="exeName">Name:<label> <input type="text" name="exeName" id="name"></li>
+						<li id="calsLabel"><label for="exeCals">Cals Burned:<label> <input type="text" name="exeCals" id="cals"></li>
+						<li id="lengthLabel"><label for="exeLength">Length:<label> <input type="text" name="exeLength" id="length"></li>
+						<li id="measureLabel"><label for="exeMeasure">Measure:<label> <input type="text" name="exeMeasure" id="measure"></li>
+					</ul>
+					<nav class="right padbot">
+						<a href="#" id="cancel" class="button shadow hidden">Cancel</a>
+						<a href="#" id="create" class="button shadow">Create</a>
+					</nav>
+				</form>
+			</section>
+			<section id="exerciseGenerated">
+				<section id="importLS" class="item">
+				</section>
+				
+				<section id="importAJAX" class="item">
+				</section>
+			</section>
+			
+			<footer class="banner martop">
+				<nav class="padtop padbot center">
+					<a href="#" id="getJSON" class="button shadow">Export JSON</a>
+					<a href="#" id="getXML" class="button shadow">Export XML</a>
+					<a href="#" id="clearLS" class="button shadow">Clear Local Storage</a>
+				</nav>
+			</footer>
+		</article>
+	
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/libs/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+	
+</html>
